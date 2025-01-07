@@ -8,59 +8,62 @@ Welcome to the **Python-Models** repository! This repository contains a collecti
 
 ## Features
 
-### 1. **Linear Regression**
-- **File**: `linear_regression.py`
-- **Description**: A supervised learning algorithm to predict continuous numerical outcomes.
-- **Key Applications**: Housing price prediction, stock market trends.
-- **Libraries Used**: NumPy, Pandas, Matplotlib, Scikit-learn.
+## Features
 
-### 2. **Logistic Regression**
-- **File**: `logistic_regression.py`
-- **Description**: A supervised learning algorithm for binary classification problems.
-- **Key Applications**: Spam email detection, customer churn prediction.
-- **Libraries Used**: NumPy, Pandas, Scikit-learn.
+### 1. **GDA_Logistic_(1).ipynb**
+   - **Description**: Implements logistic regression using generative models such as Gaussian Discriminant Analysis (GDA).
+   - **Key Topics**: Generative vs. discriminative models, classification.
 
-### 3. **Decision Tree**
-- **File**: `decision_tree.py`
-- **Description**: A versatile supervised learning algorithm used for both classification and regression.
-- **Key Applications**: Fraud detection, medical diagnoses.
-- **Libraries Used**: Scikit-learn.
+### 2. **Maximumlikelihood_negativeloglikelihood.ipynb**
+   - **Description**: Explains and implements Maximum Likelihood Estimation (MLE) and Negative Log-Likelihood (NLL) for optimization problems.
+   - **Key Topics**: Statistical estimation, loss functions.
 
-### 4. **Random Forest**
-- **File**: `random_forest.py`
-- **Description**: An ensemble learning method using multiple decision trees for better performance.
-- **Key Applications**: Credit scoring, recommendation systems.
-- **Libraries Used**: NumPy, Scikit-learn.
+### 3. **Multivariate_Gaussian_Distribution.ipynb**
+   - **Description**: Visualization and understanding of multivariate Gaussian distributions.
+   - **Key Topics**: Probability distributions, covariance matrices.
 
-### 5. **K-Means Clustering**
-- **File**: `kmeans_clustering.py`
-- **Description**: An unsupervised learning algorithm for clustering similar data points.
-- **Key Applications**: Customer segmentation, image compression.
-- **Libraries Used**: NumPy, Pandas, Scikit-learn.
+### 4. **encoder_decoder.ipynb**
+   - **Description**: Demonstrates the encoder-decoder architecture used in neural networks for tasks like sequence-to-sequence learning.
+   - **Key Topics**: Deep learning, neural networks, NLP.
+
+### 5. **gaussian.ipynb**
+   - **Description**: A detailed analysis of Gaussian distributions, including visualization and key properties.
+   - **Key Topics**: Statistics, probability.
+
+### 6. **gradient_descent_visualization_.ipynb**
+   - **Description**: Visualizes the working of gradient descent for minimizing functions.
+   - **Key Topics**: Optimization, gradient descent, cost functions.
+
+### 7. **kl_Divergence.ipynb**
+   - **Description**: Explains and computes Kullback-Leibler (KL) Divergence, a measure of how one probability distribution diverges from another.
+   - **Key Topics**: Information theory, statistical measures.
 
 ---
 
 ## Requirements
 
-To use the models in this repository, ensure you have the following dependencies installed:
+To run the notebooks, ensure you have the following dependencies installed:
 
 - Python 3.x
-- Key libraries:
+- Jupyter Notebook
+- Libraries:
   - NumPy
   - Pandas
   - Matplotlib
   - Scikit-learn
+  - TensorFlow/PyTorch (if applicable for specific notebooks)
 
-Install the required libraries using:
-
-```bash
+---
 
 Contact
-For queries, suggestions, or discussions, feel free to reach out:
+For queries, suggestions, or collaboration opportunities:
 
 Author: Anagha Prasanna Krishna
-Email: [your-email@example.com]
-LinkedIn: Your LinkedIn Profilepip install -r requirements.txt
+Email: [anaghapkrishna2002@gmail.com]
+
+
+
+
 
 
 
